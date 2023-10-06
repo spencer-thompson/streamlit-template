@@ -24,8 +24,6 @@ with col1:
 with col2:
     st.image("fillerImage.png")
 
-st.markdown("___")
-
 st.title("Example Form:")
 
 col1, col2 = st.columns(2)
