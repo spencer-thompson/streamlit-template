@@ -1,6 +1,8 @@
 """
 How to run:
 streamlit run app.py
+
+Hello cs club
 """
 import streamlit as st
 
