@@ -1,0 +1,23 @@
+[project]
+name = "streamlit-template"
+version = "0.2"
+dependencies = ["streamlit"]
+
+[project.optional-dependencies]
+dev = ["black"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 120
+target-version = ["py37"]
+
+[tool.ruff]
+line-length = 120
+output-format = "grouped"
+target-version = "py37"
+
+[tool.ruff.format]
+docstring-code-format = true

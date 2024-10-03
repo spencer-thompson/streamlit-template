@@ -1,14 +1,15 @@
 """
 How to run:
 streamlit run app.py
-
-Hello cs club
 """
+
 import streamlit as st
+
 
 def clear_form():
     st.session_state["user_text"] = ""
     st.session_state["user_pragraph"] = ""
+
 
 st.title("Hello World")
 
@@ -24,7 +25,7 @@ with col1:
 with col2:
     st.image("fillerImage.png")
 
-st.markdown("___") # This is a comment
+st.markdown("___")  # This is a comment
 
 st.title("Example Form:")
 
@@ -42,7 +43,7 @@ with col2:
     with colz:
         checkbox3 = st.checkbox("button 3")
 
-paragraph_entry = st.text_area("User Paragraph", key = "user_paragraph")
+paragraph_entry = st.text_area("User Paragraph", key="user_paragraph")
 
 if st.button("Submit"):
     short_entry_value = short_entry

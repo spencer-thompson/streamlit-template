@@ -1,2 +1,3 @@
-# streamlit-template
-A basic streamlit template to get you started!
+# Streamlit
+
+I love streamlit, maybe too much
